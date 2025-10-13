@@ -12,16 +12,16 @@ export const generateMetadata = async ( { params })=> {
   const work = getWork(slug);
   return {
     title: 'PPG | Work',
-    description: '',
+    description: 'Work page of PPG website.',
     openGraph: {
       images: [
         {
-          url: "",
-          alt: "",
+          url: "/assets/images/ppg-og-image.png",
+          alt: "prestige-promotions-group",
         },
       ],
       title: 'PPG | Work',
-      description: '',
+      description: 'Work page of PPG website.',
       type: "website",
     },
   };

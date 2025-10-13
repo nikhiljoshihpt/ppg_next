@@ -9,8 +9,8 @@ export const generateMetadata = (): Metadata => {
       openGraph: {
         images: [
           {
-            url: "",
-            alt: "",
+            url: "/assets/images/ppg-og-image.png",
+            alt: "prestige-promotions-group",
           },
         ],
         title: "PPG | Careers",
