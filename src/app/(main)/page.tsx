@@ -7,17 +7,17 @@ import Link from 'next/link';
 
 export const generateMetadata = (): Metadata => {
   return {
-    title: "My App",
-    description: "This is a Next.js app",
+    title: "PPG",
+    description: "Prestige Promotions Group was founded in 2011 with a desire to raise the standards of interactive marketing and go directly to the customer.",
     openGraph: {
       images: [
         {
           url: "",
-          alt: "Preview image for My App",
+          alt: "",
         },
       ],
-      title: "My App",
-      description: "This is a Next.js app",
+      title: "PPG",
+      description: "Prestige Promotions Group was founded in 2011 with a desire to raise the standards of interactive marketing and go directly to the customer.",
       type: "website",
     },
   };

@@ -11,17 +11,17 @@ export const generateMetadata = async ( { params })=> {
   const { slug } = await params;
   const work = getWork(slug);
   return {
-    title: 'this is the work page title',
-    description: 'this is the work page description',
+    title: 'PPG | Work',
+    description: '',
     openGraph: {
       images: [
         {
           url: "",
-          alt: "Preview image for My App",
+          alt: "",
         },
       ],
-      title: work?.title,
-      description: work?.description,
+      title: 'PPG | Work',
+      description: '',
       type: "website",
     },
   };

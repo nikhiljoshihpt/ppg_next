@@ -14,17 +14,17 @@ const capabilities = [
 
 export const generateMetadata = (): Metadata => {
     return {
-      title: "My App",
-      description: "This is a Next.js app",
+      title: "PPG | Capabilities",
+      description: "We specialize in crafting events that place your products in front of your ideal consumer. Whether you’re looking for a dedicated special celebration or are interested in collecting primary customer feedback, we’ll work with you to activate your brand.",
       openGraph: {
         images: [
           {
             url: "",
-            alt: "Preview image for My App",
+            alt: "",
           },
         ],
-        title: "My App",
-        description: "This is a Next.js app",
+        title: "PPG | Capabilities",
+        description: "We specialize in crafting events that place your products in front of your ideal consumer. Whether you’re looking for a dedicated special celebration or are interested in collecting primary customer feedback, we’ll work with you to activate your brand.",
         type: "website",
       },
     };

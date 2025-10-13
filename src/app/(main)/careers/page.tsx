@@ -4,17 +4,17 @@ import React from 'react'
 
 export const generateMetadata = (): Metadata => {
     return {
-      title: "My App",
-      description: "This is a Next.js app",
+      title: "PPG | Careers",
+      description: "We’re always on the lookout for young and energetic team members. Because this is an event-based organization, you would work limited hours and make money on the side while having plenty of time to pursue another career or passion.",
       openGraph: {
         images: [
           {
             url: "",
-            alt: "Preview image for My App",
+            alt: "",
           },
         ],
-        title: "My App",
-        description: "This is a Next.js app",
+        title: "PPG | Careers",
+        description: "We’re always on the lookout for young and energetic team members. Because this is an event-based organization, you would work limited hours and make money on the side while having plenty of time to pursue another career or passion.",
         type: "website",
       },
     };

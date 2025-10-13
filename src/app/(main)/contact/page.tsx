@@ -4,17 +4,17 @@ import React from 'react'
 
 export const generateMetadata = (): Metadata => {
     return {
-      title: "My App",
-      description: "This is a Next.js app",
+      title: "PPG | Contact",
+      description: "Contact page of PPG website.",
       openGraph: {
         images: [
           {
             url: "",
-            alt: "Preview image for My App",
+            alt: "",
           },
         ],
-        title: "My App",
-        description: "This is a Next.js app",
+        title: "PPG | Contact",
+        description: "Contact page of PPG website.",
         type: "website",
       },
     };
