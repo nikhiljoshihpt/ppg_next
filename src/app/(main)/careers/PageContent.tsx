@@ -27,7 +27,7 @@ const PageContent = () => {
 
             <p className='text-2xl sm:text-3xl font-thin tracking-wide leading-relaxed text-center mt-20'>Join our growing family of happy brand ambassadors</p>
 
-            <button className='text-2xl text-[#178DA1] sm:text-3xl max-sm:px-8 px-12 sm:px-16 py-6 bg-black leading-relaxed text-center font-cambria font-bold italic cursor-pointer mt-4 md:mt-8'>check open positions</button>
+            <button className='text-2xl text-[#178DA1] sm:text-3xl max-sm:px-8 px-12 sm:px-16 py-6 bg-black leading-relaxed text-center font-cambria font-bold italic cursor-pointer mt-4 md:mt-8'>contact us</button>
 
             <p className='text-xl text-center opacity-80 mt-12 leading-relaxed tracking-wide md:mt-16'><span className='font-thin'>Didn't find a suitable position?</span> {' '}
                 <br className='block md:hidden' />
