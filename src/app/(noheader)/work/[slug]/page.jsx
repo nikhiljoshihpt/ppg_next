@@ -18,8 +18,8 @@ export const generateMetadata = async ( { params }) => {
     openGraph: {
       images: [
         {
-          url: "",
-          alt: "Preview image for My App",
+          url: "/assets/images/ppg-og-image.png",
+          alt: "prestige-promotions-group",
         },
       ],
       title: work?.title,
