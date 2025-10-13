@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export const generateMetadata = (): Metadata => {
   return {
-    title: "PPG",
+    title: "Prestige Promotions Group",
     description: "Prestige Promotions Group was founded in 2011 with a desire to raise the standards of interactive marketing and go directly to the customer.",
     openGraph: {
       images: [
@@ -16,7 +16,7 @@ export const generateMetadata = (): Metadata => {
           alt: "",
         },
       ],
-      title: "PPG",
+      title: "Prestige Promotions Group",
       description: "Prestige Promotions Group was founded in 2011 with a desire to raise the standards of interactive marketing and go directly to the customer.",
       type: "website",
     },
