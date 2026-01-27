@@ -1,15 +1,14 @@
-import React, { cache, use } from "react";
+import React, { cache } from "react";
 import { works } from '@/utils/util'
 import PageContent from "./PageContent";
 
-
 const getWork = cache((slug) => {
   const idx = works.findIndex(w => w.slug === slug);
-  const work = works.find(w => w.slug === slug) ;
-  return {idx, work};
+  const work = works.find(w => w.slug === slug);
+  return { idx, work };
 })
 
-export const generateMetadata = async ( { params }) => {
+export const generateMetadata = async ({ params }) => {
   const { slug } = await params;
   const { work } = getWork(slug);
   return {
@@ -29,10 +28,9 @@ export const generateMetadata = async ( { params }) => {
   };
 };
 
-export default function WorkPage({ params }) {
-  const { slug } = use(params);
+export default async function WorkPage({ params }) {
+  const { slug } = await params;
   const { work, idx } = getWork(slug);
-
 
   return (
     <PageContent work={work} idx={idx}/>
