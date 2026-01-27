@@ -1,6 +1,6 @@
 'use client'
 import Link from 'next/link'
-import React, { useCallback, useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useState, useMemo } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 import { heroImages } from '@/utils/util'
 import CircleAnimation from './CircleAnimation'
@@ -9,6 +9,15 @@ import './HeroSection.css'
 
 const HeroSection = () => {
     const [bubblesSize, setBubblesSize] = useState(() => 0)
+    const [isClient, setIsClient] = useState(false)
+    
+    const bubbleAnimations = useMemo(() => {
+        return heroImages.map((_, index) => ({
+            driftClass: index % 2 === 0 ? "bubble-drift-left" : "bubble-drift-right",
+            duration: `${6 + (index * 0.7) % 6}s`,
+            delay: `${(index * 0.5) % 5}s`,
+        }))
+    }, [])
     // const [showAnimation, setShowAnimation] = useState(false)
     const [animation, setAnimation] = useState({
         display: false,
@@ -42,6 +51,8 @@ const HeroSection = () => {
     }
    
     useEffect(() => {
+        setIsClient(true)
+        
         function handleResizeOrLoad() {
             const size = getBubbleSize()
             setBubblesSize(size)
@@ -67,44 +78,29 @@ const HeroSection = () => {
     <div className='bg-black pb-32 px-4'>
         <div className="w-full max-w-5xl mx-auto aspect-square relative top-[-20px] sm:top-[-150px] xl:top-[-220px]">
         {
-            heroImages.map((heroImage) => {
+            heroImages.map((heroImage, index) => {
+                const anim = bubbleAnimations[index]
                 return (
                     heroImage.url ?
-
-                    // <Link href={heroImage.url}>
-                        // <div
-                        //     onClick={()=>spreadCircle(heroImage.url, heroImage.color)}
-                        //     key={uuidv4()}
-                        //     className={`shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.6)] rounded-full bg-cover absolute cursor-pointer`}
-                        //     style={{
-                        //         height: `${heroImage.size*bubblesSize}px`,
-                        //         width: `${heroImage.size*bubblesSize}px`,
-                        //         top: `${heroImage.top}%`,
-                        //         left: `${heroImage.left}%`,
-                        //         backgroundImage: `url(${heroImage.path})`,
-                        //     }}
-                        // ></div>
                     <div
                         onClick={()=>spreadCircle(heroImage.url, heroImage.color)}
-                        key={uuidv4()}
+                        key={`hero-bubble-${index}`}
                         className={`shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.6)] 
                                     rounded-full bg-cover absolute animate-bubble 
-                                    ${Math.random() > 0.5 ? "bubble-drift-left" : "bubble-drift-right"}`}
+                                    ${isClient ? anim.driftClass : ""}`}
                         style={{
                             height: `${heroImage.size * bubblesSize}px`,
                             width: `${heroImage.size * bubblesSize}px`,
                             top: `${heroImage.top}%`,
                             left: `${heroImage.left}%`,
                             backgroundImage: `url(${heroImage.path})`,
-                            animationDuration: `${6 + Math.random() * 6}s`, // 6–12s
-                            animationDelay: `${Math.random() * 5}s`,        // staggered start
+                            animationDuration: isClient ? anim.duration : undefined,
+                            animationDelay: isClient ? anim.delay : undefined,
                         }}
                     ></div>
-                    // </Link> 
                     :
-
                     <div
-                        key={uuidv4()}
+                        key={`hero-bubble-${index}`}
                         className={`shadow-[inset_0_0_0_0.5px_rgba(255,255,255,0.6)] rounded-full bg-cover absolute`}
                         style={{
                             height: `${heroImage.size*bubblesSize}px`,
