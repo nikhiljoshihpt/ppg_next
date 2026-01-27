@@ -37,3 +37,14 @@ externalPort = 80
 deploymentTarget = "autoscale"
 run = ["npm", "run", "start", "--", "-p", "5000", "-H", "0.0.0.0"]
 build = ["npm", "run", "build"]
+
+[userenv]
+
+[userenv.shared]
+NEXT_PUBLIC_FIREBASE_API_KEY = "AIzaSyCw1LNSYcbu1t4ewpea-xHzaNgMuD3-aAU"
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN = "ppgwebsite-67ce1.firebaseapp.com"
+NEXT_PUBLIC_FIREBASE_PROJECT_ID = "ppgwebsite-67ce1"
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET = "ppgwebsite-67ce1.firebasestorage.app"
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID = "756283311172"
+NEXT_PUBLIC_FIREBASE_APP_ID = "1:756283311172:web:66e3bbc70d7f6471cea811"
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID = "G-WTXCGRV3EN"
