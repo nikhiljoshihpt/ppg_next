@@ -8,7 +8,7 @@ export const metadata = {
     images: [
       {
         url: "/assets/images/ppg-og-image.png",
-        alt: "prestige-promotions-group",
+        alt: "prestige-promotion-group",
       },
     ],
     title: 'PPG | Work',

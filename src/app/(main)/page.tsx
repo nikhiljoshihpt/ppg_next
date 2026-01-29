@@ -7,17 +7,17 @@ import Link from 'next/link';
 
 export const generateMetadata = (): Metadata => {
   return {
-    title: "Prestige Promotions Group",
-    description: "Prestige Promotions Group was founded in 2011 with a desire to raise the standards of interactive marketing and go directly to the customer.",
+    title: "Prestige Promotion Group",
+    description: "Prestige Promotion Group was founded in 2011 with a desire to raise the standards of interactive marketing and go directly to the customer.",
     openGraph: {
       images: [
         {
           url: "/assets/images/ppg-og-image.png",
-          alt: "prestige-promotions-group",
+          alt: "prestige-promotion-group",
         },
       ],
-      title: "Prestige Promotions Group",
-      description: "Prestige Promotions Group was founded in 2011 with a desire to raise the standards of interactive marketing and go directly to the customer.",
+      title: "Prestige Promotion Group",
+      description: "Prestige Promotion Group was founded in 2011 with a desire to raise the standards of interactive marketing and go directly to the customer.",
       type: "website",
     },
   };

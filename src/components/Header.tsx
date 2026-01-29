@@ -64,7 +64,7 @@ const Header = () => {
                 <div className="bg-black text-gray-100 px-8 py-12 md:px-32 md:py-16">
                     <div className='max-w-6xl w-full flex items-center justify-between mx-auto'>
                         <div className="text-sm md:text-2xl">
-                            <div className="font-bold tracking-wide">Prestige Promotions Group LLC</div>
+                            <div className="font-bold tracking-wide">Prestige Promotion Group LLC</div>
                             <div className="font-light tracking-wider">St Louis, Missouri, United States</div>
                         </div>
                         <div className="flex space-x-2 md:space-x-4">
