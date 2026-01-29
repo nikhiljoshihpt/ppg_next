@@ -29,7 +29,7 @@ const page = () => {
             <div className="text-center font-cambria font-bold sm:mb-20 text-2xl sm:text-3xl md:text-4xl italic text-gray-900">
                 <Link href={`mailto:KHouston@activateppg.com`} className="text-center border-b border-gray-900">KHouston@activateppg.com</Link>
                 <span className='hidden sm:inline-block mx-2'> | </span><br className='block sm:hidden' />
-                <Link href={`mailto:Shouston@activateppg.com`} className="text-center border-b border-gray-900">Shouston@activateppg.com</Link>
+                <Link href={`mailto:SHouston@activateppg.com`} className="text-center border-b border-gray-900">SHouston@activateppg.com</Link>
             </div>
         </div>
     )
