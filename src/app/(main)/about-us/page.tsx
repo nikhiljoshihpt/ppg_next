@@ -5,10 +5,10 @@ import React from 'react'
 import { v4 as uuidv4 } from 'uuid'
 
 const teamMembers = [
-    {name: "Kourtney Houston", designation: "Owner", blurb: "After a career as a cosmetologist, Kourtney was ready to go on the greatest adventure of her life when she founded PPG in 2011. A master of staffing and problem solving, she loves the exciting space of events and interactive marketing. Outside of work, Kourtney enjoys cooking for friends and family.", image: "/assets/images/about/kourtney-profile.jpg", linkedIn: "https://www.linkedin.com/in/kourtney-houston-26768264/", },
+    {name: "Kourtney Houston", designation: "Owner", blurb: "After a successful career managing salons, Kourtney was ready to go on the greatest adventure of her life when she founded PPG in 2011. A master of staffing and problem solving, she loves the exciting space of events and interactive marketing. Outside of work, Kourtney enjoys cooking for friends and family.", image: "/assets/images/about/kourtney-profile.jpg", linkedIn: "https://www.linkedin.com/in/kourtney-houston-26768264/", },
     {name: "Shale Houston", designation: "Owner", blurb: "Shale joined PPG during the pandemic, bringing 20+ years of sales and business experience and a willingness to take charge. He enjoys working in this industry precisely because there’s a different challenge every day. When not working, Shale enjoys hosting friends and family and boating.", image: "/assets/images/about/shale-profile.jpeg", linkedIn: "https://www.linkedin.com/in/shale-houston-9b186251/", },
     // {name: "Carrie Schoening", designation: "Manager", blurb: "Almost nothing happens here without Carrie’s effort and involvement. Carrie is the backend and calendar manager at PPG and has been a central member since 2014. Outside of work, Carrie is busy with her children and rescue animals, including the Irish wolfhounds she raises.", image: "", },
-  ]
+]
 
 export const generateMetadata = (): Metadata => {
   return {
