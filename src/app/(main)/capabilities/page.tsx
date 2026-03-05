@@ -12,10 +12,16 @@ const capabilities = [
     {image: "/assets/images/capabilities/analytics.png", title: "Analysis", subtitle: "We provide data-driven, actionable insights after every event."},
 ]
 
+const description = `<p><b>Prestige Promotion Group: Leaders in Beverage Sampling & Experiential Marketing</b>
+At <b>Prestige Promotion Group</b>, we help brands drive awareness, trial, and loyalty through expertly executed sampling programs and special events—delivering hands-on experiences in both on-premise (bars, restaurants, venues, festivals) and off-premise (grocery, retail, convenience) environments.</p><p>With more than 15 years as one of the Midwest’s largest and most established sampling companies, we bring deep industry knowledge of brands, distributors, and consumers. We work closely with all partners to engage audiences authentically while providing clear, compliant education—especially valuable for emerging categories.</p><p>Our core focus includes <b>beer, wine, spirits, RTDs, THC beverages, and energy drinks</b>, with flexibility across other categories. We regularly collaborate with restaurants and major grocery chains to incorporate food pairings that enhance the sampling experience and amplify impact.</p><p>As a trusted bridge between brand, distributor, and consumer, we prioritize professionalism: recruiting and training reliable brand ambassadors who excel in real human connection, while leveraging technology for scheduling, real-time reporting, compliance, and actionable insights.
+We excel at both launching innovative new products and sustaining momentum for established national brands—delivering consistent, scalable, results-driven activations that brands rely on for quality, compliance, and performance across the Midwest and beyond.</p><p>Ready to bring your product to life? Contact <b>Prestige Promotion Group</b> today—we’re your dependable partner for standout sampling and activations.</p>`;
+
 export const generateMetadata = (): Metadata => {
     return {
       title: "PPG | Capabilities",
-      description: "We specialize in crafting events that place your products in front of your ideal consumer. Whether you’re looking for a dedicated special celebration or are interested in collecting primary customer feedback, we’ll work with you to activate your brand.",
+      description: `Prestige Promotion Group: Leaders in Beverage Sampling & Experiential Marketing
+At Prestige Promotion Group, we help brands drive awareness, trial, and loyalty through expertly executed sampling programs and special events—delivering hands-on experiences in both on-premise (bars, restaurants, venues, festivals) and off-premise (grocery, retail, convenience) environments. With more than 15 years as one of the Midwest’s largest and most established sampling companies, we bring deep industry knowledge of brands, distributors, and consumers. We work closely with all partners to engage audiences authentically while providing clear, compliant education—especially valuable for emerging categories. Our core focus includes beer, wine, spirits, RTDs, THC beverages, and energy drinks, with flexibility across other categories. We regularly collaborate with restaurants and major grocery chains to incorporate food pairings that enhance the sampling experience and amplify impact. As a trusted bridge between brand, distributor, and consumer, we prioritize professionalism: recruiting and training reliable brand ambassadors who excel in real human connection, while leveraging technology for scheduling, real-time reporting, compliance, and actionable insights.
+We excel at both launching innovative new products and sustaining momentum for established national brands—delivering consistent, scalable, results-driven activations that brands rely on for quality, compliance, and performance across the Midwest and beyond. Ready to bring your product to life? Contact Prestige Promotion Group today—we’re your dependable partner for standout sampling and activations.`,
       openGraph: {
         images: [
           {
@@ -24,7 +30,9 @@ export const generateMetadata = (): Metadata => {
           },
         ],
         title: "PPG | Capabilities",
-        description: "We specialize in crafting events that place your products in front of your ideal consumer. Whether you’re looking for a dedicated special celebration or are interested in collecting primary customer feedback, we’ll work with you to activate your brand.",
+        description: `Prestige Promotion Group: Leaders in Beverage Sampling & Experiential Marketing
+At Prestige Promotion Group, we help brands drive awareness, trial, and loyalty through expertly executed sampling programs and special events—delivering hands-on experiences in both on-premise (bars, restaurants, venues, festivals) and off-premise (grocery, retail, convenience) environments. With more than 15 years as one of the Midwest’s largest and most established sampling companies, we bring deep industry knowledge of brands, distributors, and consumers. We work closely with all partners to engage audiences authentically while providing clear, compliant education—especially valuable for emerging categories. Our core focus includes beer, wine, spirits, RTDs, THC beverages, and energy drinks, with flexibility across other categories. We regularly collaborate with restaurants and major grocery chains to incorporate food pairings that enhance the sampling experience and amplify impact. As a trusted bridge between brand, distributor, and consumer, we prioritize professionalism: recruiting and training reliable brand ambassadors who excel in real human connection, while leveraging technology for scheduling, real-time reporting, compliance, and actionable insights.
+We excel at both launching innovative new products and sustaining momentum for established national brands—delivering consistent, scalable, results-driven activations that brands rely on for quality, compliance, and performance across the Midwest and beyond. Ready to bring your product to life? Contact Prestige Promotion Group today—we’re your dependable partner for standout sampling and activations.`,
         type: "website",
       },
     };
@@ -35,7 +43,7 @@ const page = () => {
   return (
     <div className='bg-black text-white pb-24 px-8'>
         <div className="text-center text-5xl font-bold text-white italic font-cambria">Capabilities</div>
-        <div className="w-full md:w-2/3 text-2xl md:text-3xl text-center leading-relaxed font-thin mt-16 mx-auto">We specialize in crafting events that place your products in front of your ideal consumer. Whether you’re looking for a dedicated special celebration or are interested in collecting primary customer feedback, we’ll work with you to activate your brand.</div>
+        <div dangerouslySetInnerHTML={{__html: description}} className="xprose w-full md:w-2/3 text-2xl md:text-3xl text-center leading-relaxed font-thin mt-16 mx-auto"></div>
         {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 place-content-center mt-16 md:mt-32 mx-auto w-3/4">
             {
                 capabilities.map((capability) => {

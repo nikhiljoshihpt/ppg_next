@@ -21,7 +21,7 @@ const WorkSection = ( { data }: PageProps ) => {
                             className="relative bg-cover bg-no-repeat h-96 bg-center bg-blend-overlay bg-black/50 cursor-pointer hover:bg-black/70"
                             style={{ backgroundImage: `url(${work.image})` }}
                             >
-                                <h2 className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl md:text-5xl font-semibold text-white text-center font-cambria md:tracking-wide italic max-sm:w-3/4">
+                                <h2 className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl md:text-5xl font-semibold text-white text-center font-cambria md:tracking-wide italic w-3/4">
                                     {work.title}
                                 </h2>
                             </div>

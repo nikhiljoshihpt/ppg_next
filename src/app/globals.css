@@ -39,3 +39,7 @@ body {
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+.xprose p {
+  margin-bottom: 1rem;
+}

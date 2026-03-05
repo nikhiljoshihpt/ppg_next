@@ -68,10 +68,10 @@ export const coreValues = [
 
 export const works = [
   {
-    title: 'Zoa, Wichita',
+    title: "Sampling ZOA Energy at the NCAA Division | Men's Basketball Championship in Wichita, KS",
     image: '/assets/images/work/workpage-zoa.jpg',
     slug: 'zoa-wichita',
-    description: 'Zoa reached out to us to promote a line of their energy drinks. We love a good outdoor party, and at a basketball game in Wichita, we were proud to have sports fans experience the delicious and energizing taste of Zoa zero sugar energy drinks. Placed next to giants such as Prime hydration and Coors, we were happy to hand out Zoa to discerning patrons, including our men and women in blue at the event.',
+    description: `<p>The high-energy atmosphere of the NCAA Division I Men's Basketball Championship—better known as March Madness—provided the perfect setting to introduce fans to <b>ZOA Energy</b>, a line of zero-sugar energy drinks. During the First and Second Rounds hosted at INTRUST Bank Arena in Wichita, Kansas, our team engaged enthusiastic crowds over multiple exciting days. As thousands of attendees cheered for bracket-busting games and tournament action, we delivered hands-on sampling experiences—passing out ice-cold samples and sparking positive interactions right in the heart of the festivities.</p> <p>This fast-paced, fan-filled event demonstrated Prestige Promotion Group's skill in creating seamless, on-site activations that connect products with passionate audiences in high-profile, seasonal environments—driving engagement through strategic planning, energetic brand ambassadors, and targeted consumer touchpoints.</p>`,
     // elements: [
     //   {
     //     title: 'Objectives Planning and Execution:',
@@ -130,21 +130,22 @@ export const works = [
     // conclusion: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, quibusdam? Repellendus perferendis ut eaque voluptatem, reprehenderit ducimus error animi vel beatae!',
   },
   {
-    title: 'Corona On Premise Tasting',
+    title: 'Modelo regional sampling drive in partnership with Buffalo Wild Wings.',
     image: '/assets/images/work/workpage-corona.jpg',
     slug: 'corona-premise',
-    description: 'Batter up! What better way to enjoy The World Series than in a sports bar with friends and family? That’s why Paddy O’s in St. Louis was a perfect place to watch people play ball. Wings, burgers, and the cold refreshing taste of Corona made for an afternoon to remember. This was one game we are likely never to forget!',
+    description: `<p>Buffalo Wild Wings restaurants across the Midwest, served as prime venues for a targeted sampling campaign featuring <b>Modelo</b>.</p><p>In partnership with the brand, our team rolled out an on-site sampling activation at Buffalo Wild Wings locations spanning several Midwest states. Throughout the promotion period, as guests enjoyed games, food, and the lively restaurant atmosphere, we delivered engaging hands-on experiences—offering chilled Modelo samples and fostering positive brand interactions at tables, bars, and high-traffic areas.</p><p>This multi-location initiative showcased Prestige Promotion Group's expertise in coordinating scalable, high-traffic restaurant activations—connecting products with receptive consumers through precise planning, trained brand ambassadors, and strategic engagement during peak times like game days and gatherings.</p>`,
   },
   {
-    title: 'Molson Coors Balloon Races',
+    title: 'Sampling Simply Spiked at the Great Forest Park Balloon Race',
     image: '/assets/images/work/workpage-balloon.jpg',
     slug: 'molson-coors',
-    description: 'An exciting day at the Forest Park Balloon Races was sure to be made better with a cold, enlivening drink! It was a perfect place for us to activate Simply Spiked, a series of delicious, medium-strength alcoholic refreshers by the Molson Coors beverage company. Across two days, as hundreds of patrons enjoyed the festivities, we were there to help them quench their thirst and have a great time!',
+    description: `<p>An exciting weekend at the Great Forest Park Balloon Race in St. Louis provided the ideal backdrop for introducing attendees to <b>Simply Spiked</b>, Molson Coors' line of refreshing, alcoholic beverages made with real fruit juice.</p><p>Over two dynamic days, as hundreds of festival-goers enjoyed the iconic balloon glow, competitive races, and family-friendly atmosphere in one of the city's most beloved parks, our team delivered engaging, hands-on sampling experiences. We helped quench thirsts with ice-cold servings right in the heart of the festivities, creating positive brand interactions and memorable moments amid the soaring balloons and vibrant crowds.</p><p>This high-energy event showcased Prestige Promotion Group's ability to execute seamless, on-site activations that connect products with enthusiastic audiences in perfect seasonal settings—delivering results through expert planning, enthusiastic brand ambassadors, and strategic consumer engagement.</p>`,
   },
   {
-    title: 'Minus196 Songs for Soldiers',
+    title: 'Introducing Señorita THC Beverages at Total Wine & More Locations Across the Midwest',
     image: '/assets/images/work/workpage-veterans.jpg',
     slug: 'soldiers-songs',
-    description: 'Songs4Soldiers is a charitable organisation and music event dedicated to serving the needs of veterans. We were honored and privileged to represent -196 at the event, doing our part to help everyone there have a good time and raise funds for important services for our veterans.',
+    description: `<p>The rollout of <b>Señorita</b>, a line of hemp-derived THC-infused beverages, marked the introduction of a new product category to retail shelves in select Midwest markets.
+Working closely with the brand, our team launched a large-scale, in-store sampling campaign at Total Wine & More locations across the midwest.</p><p>Over the course of consistent activations, brand ambassadors focused on both consumer engagement and education—providing hands-on sampling of chilled servings while explaining key aspects of the emerging THC beverage category, including product features, effects, and responsible enjoyment, to help customers unfamiliar with this space make informed choices.</p><p>This multi-location initiative demonstrated Prestige Promotion Group's ability to execute thoughtful, education-driven activations in high-volume retail environments—building consumer familiarity and confidence through strategic partnerships, trained ambassadors, and ongoing sampling that aligned with new product launches and category development.</p>`,
   },
 ]
